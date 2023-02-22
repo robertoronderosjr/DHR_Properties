@@ -5,9 +5,13 @@ name = "pypi"
 
 [packages]
 selenium = "*"
+pandas = "*"
 
 [dev-packages]
 ipykernel = "*"
+pylint = "*"
+black = "*"
+pre-commit = "*"
 
 [requires]
 python_version = "3.8"

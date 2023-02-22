@@ -1,7 +1,8 @@
-import os
 import argparse
 import logging
-from property_search import PropertySearch
+import os
+
+from property_search.property_search import PropertySearch
 
 # Set up logger
 logger = logging.getLogger(__name__)
