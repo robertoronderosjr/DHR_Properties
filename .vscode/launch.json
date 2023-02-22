@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: dhr_properties",
+            "type": "python",
+            "request": "launch",
+            "module": "dhr_properties.__main__",
+            "env": {
+                "MLS_USERNAME": "your_username",
+                "MLS_PASSWORD": "your_password"
+            },
+            "args": [
+                "--price",
+                "500-",
+                "--year-built",
+                "1960+",
+                "--beds",
+                "3",
+                "--baths",
+                "2",
+                "--sqft",
+                "1000",
+                "--style",
+                "Single Family Residence",
+                "--county",
+                "Orange,Seminole,Lake,Osceola,Volusia,Polk",
+                "--garage",
+                "true",
+                "--sewer",
+                "Aerobic Septic",
+                "Septic Needed",
+                "Septic Tank",
+                "--email",
+                "youremail@example.com",
+                "--cap-rate-threshold",
+                "0.05"
+            ]
+        }
+    ]
+}
