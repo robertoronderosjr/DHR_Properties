@@ -1,0 +1,5 @@
+[MASTER]
+disable = C,R,W
+
+[FORMAT]
+max-line-length = 120
